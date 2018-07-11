@@ -1,0 +1,406 @@
+
+@charset "utf-8";
+body {
+    min-width: 960px;
+    background-color: #444242;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif, Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.header {
+
+background-color: black;
+
+
+}
+
+
+.menu {
+    background-color: black; 
+}
+
+
+.navbar div {
+
+display: inline;
+
+text-decoration: none;
+background-color: black;
+float: left;
+
+
+}
+
+.navbar a {
+
+   
+padding: 20px 20px;
+
+display: inline-block;
+}
+
+.navbar .mgz {
+
+border-bottom: 5px solid white;
+
+}
+
+
+.logo {
+
+padding-left: 20px;
+padding-top: 20px; 
+
+padding-right: 10px;
+}
+
+
+.navbar div:hover {
+
+background-color: #212121;
+
+}
+
+.navbar .logo:hover{
+
+background-color: black;
+
+}
+
+
+.navbar a {
+
+text-decoration: none;
+color: white;
+
+}
+
+
+.nav-entr {
+
+float: right;
+background-color: black;
+margin-top: 5px; 
+
+}
+
+.nav-entr a {
+
+color: white;
+text-decoration: none;
+
+
+}
+
+
+
+.nav-entr .ent {
+
+padding:  10px 5px; 
+
+list-style: none; 
+background: url("../img/.icon-login.png") no-repeat 0 12px; 
+padding-left: 24px;  
+
+
+
+}
+
+.nav-entr:hover {
+
+background-color: #212121;
+
+
+}
+
+
+.main {
+
+background-color: #f5f2ef;
+color: black;
+
+}
+
+
+.prl {
+
+padding-top: 40px;
+
+}
+
+.prl a {
+
+text-decoration: none;
+color: black;
+
+}
+
+.prl a:hover {
+
+color: #c0bebc;
+
+}
+
+
+.prl p, li {
+
+display: inline;
+
+}
+
+.prl .ux {
+
+color:  #c0bebc;
+
+}
+
+
+.prl li {
+
+list-style: none; 
+background: url("../img/Shape 1 copy.png") no-repeat 8px 3px; 
+padding-left: 30px;  
+
+
+}
+
+.vends {
+
+padding-bottom: 40px;
+
+padding-top: 50px;
+}
+
+.tovar {
+
+float: right;
+
+margin-right: -20px;
+
+}
+
+
+.prise {
+
+margin-top:  -15px;
+
+}
+
+.prise p {
+
+padding-left: 10px;
+
+}
+
+.opsa p, a {
+ 
+display: inline; 
+
+}
+
+.opsa {
+
+padding-left: 10px;
+
+padding-right: 10px;
+
+padding-bottom: 20px;
+}
+
+.opsa p {
+
+padding: 10px 30px;
+background-color: #e5e5e5;
+
+}
+
+.opsa a {
+
+background-color: black;
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+}
+
+.opsa a:hover  {
+
+background-color: #1f1f1f;
+
+}
+
+.tovcol1 span {
+
+display: inline-block;
+
+margin-right: 20px;
+
+background-color: white; 
+}
+
+
+.tovcol2 {
+
+padding-top: 20px;
+
+}
+
+.tovcol2 span {
+
+
+
+display: inline-block;
+
+margin-right: 20px;
+
+background-color: white; 
+}
+
+
+.magaz {
+
+float: left;
+
+}
+
+.magaz input, label {
+
+display: table;
+
+padding: 15px 15px;
+
+margin-left:  -10px;
+
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display:none;            
+}
+ 
+
+input[type="checkbox"] + label::before  {
+   content: "";
+  
+
+
+    padding: 5px 15px;
+    
+    background: url("../img/kvdr.png" ) no-repeat 0 2px;
+     
+}
+
+
+input[type="checkbox"]:checked + label::before {
+    
+     content: "";
+     
+        padding: 5px  15px;
+    
+    background: url("../img/kvdr2.png")  no-repeat 0 2px;
+   
+}
+
+input[type="checkbox"]:checked:disabled + label,
+input[type="radio"]:checked:disabled + label {
+    opacity: .3;
+    color: black;
+}
+
+
+
+.footer {
+
+background-color: #232323;  
+
+}
+
+.fotcont {
+float: left;
+padding-top: 60px; 
+
+padding-bottom: 50px;
+
+}
+
+.fotcont p {
+
+margin: -10px 0;
+
+
+}
+
+
+.frend span{ 
+
+    display: inline;
+     background-color:  black;
+padding: 15px 10px;
+    
+margin-left: 10px;
+
+
+
+}
+
+.frend p {
+
+ text-align: center;
+padding-bottom: 5px;
+}
+
+.frend  {
+
+float: left;
+
+margin: 35px 100px;
+}
+
+.raz {
+
+float: right;
+
+padding-top: 40px;
+
+}
+
+.raz p {
+
+text-align: center;
+padding-bottom: 5px;
+}
+
+.raz a {
+
+text-decoration: none;
+color: white;
+
+background-color: black;
+
+padding: 10px 30px;
+
+}
+
+.raz a:hover {
+
+background-color: #787373;
+
+}

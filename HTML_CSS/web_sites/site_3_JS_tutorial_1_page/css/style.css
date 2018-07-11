@@ -1,0 +1,492 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #bababa;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header .wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.header .headerLogo__img {
+  float: left;
+  margin-top: -12px;
+}
+
+.header .headerNav .headerNavItemAboutUs,
+.header .headerNav .headerNavItemPortfolio,
+.header .headerNav .headerNavItemHome,
+.header .headerNav .headerNavItemProject,
+.header .headerNav .headerNavItemFollowUs {
+  display: inline-block;
+  margin: 15px 15px;
+}
+
+.header .headerNav .headerNavItemHome__a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerNav .headerNavItemProject__a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerNav .headerNavItemAboutUs__a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerNav .headerNavItemAboutUs__a:after {
+  content: "" url("../img/down arrow.png");
+  float: right;
+  margin-top: -2px;
+  margin-left: -5px;
+}
+
+.header .headerNav .headerNavItemAboutUs .headerNavItemAboutUsSubmenu {
+  display: none;
+  background-color: #bababa;
+}
+
+.header .headerNav .headerNavItemAboutUs .headerNavItemAboutUsSubmenu a {
+  display: table;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerNav .headerNavItemAboutUs .show {
+  display: block;
+}
+
+.header .headerNav .headerNavItemPortfolio__a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerNav .headerNavItemPortfolio__a:after {
+  content: "" url("../img/down arrow.png");
+  float: right;
+  margin-top: -2px;
+  margin-left: -5px;
+}
+
+.header .headerNav .headerNavItemPortfolio .headerNavItemPortfolioSubmenu {
+  background-color: #bababa;
+  display: none;
+}
+
+.header .headerNav .headerNavItemPortfolio .headerNavItemPortfolioSubmenu a {
+  display: table;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerNav .headerNavItemPortfolio .show2 {
+  display: block;
+}
+
+.header .headerNav .headerNavItemFollowUs__a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header .headerSlider {
+  padding-left: 35px;
+  margin: auto;
+}
+
+.header .headerSlider .fade {
+  -webkit-animation: fade;
+  animation: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+.header .headerSlider .headerSliderSlides .headerSliderSlidesCounter {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.header .headerSlider .headerSliderSlides .headerSliderSlidesText {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.header .headerSlider .headerSliderButtonPrev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -180px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.header .headerSlider .headerSliderButtonNext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 15px 15px;
+  margin-top: -180px;
+  margin-left: 1160px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 3px 0 0 3px;
+}
+
+.header .headerSlider .headerSliderButtonNext:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header .headerSlider .headerSliderButtonPrev:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header .headerSlider .headerSliderRadio {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.header .headerSlider .headerSliderRadio .headerSliderRadiobuttons {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.header .headerSlider .headerSliderRadio .headerSliderRadiobuttons:hover {
+  background-color: #717171;
+}
+
+.section1 {
+  padding-top: 50px;
+  padding-left: 60px;
+}
+
+.section1 .tabs .tabsTab div {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+  margin-bottom: -1px;
+  background-color: #33CCCC;
+}
+
+.section1 .tabs .tabsTab .whiteborder {
+  border: 2px solid #707070;
+  border-bottom: 2px solid #fff;
+  border-radius: 3px 3px 0 0;
+  z-index: 20;
+  position: relative;
+}
+
+.section1 .tabs .tabsContent div {
+  border: 2px solid #707070;
+  position: relative;
+  top: -1px;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+}
+
+.section1 .tabs .tabsContent .hide {
+  display: none;
+}
+
+.section1 .tabs .tabsContent .show {
+  display: block;
+}
+
+.section2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 55px;
+}
+
+.section2 .accordion button {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.section2 .accordion .active,
+.section2 .accordion button:hover {
+  background-color: #ccc;
+}
+
+.section2 .accordion div {
+  padding: 0 18px;
+  background-color: #35D3A7;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
+}
+
+.section2 .accordion button:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.section2 .accordion .active:after {
+  content: "\2796";
+}
+
+.section3 .modalwindows {
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.section3 .modalwindows .modalwindow1,
+.section3 .modalwindows .modalwindow2 {
+  display: inline-block;
+}
+
+.section3 .modalwindows .modalwindow1__btn {
+  padding: 10px 15px;
+  background-color: #006363;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.section3 .modalwindows .modalwindow1 .modalwindow1Modal {
+  display: none;
+  position: fixed;
+  z-index: 30;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section3 .modalwindows .modalwindow1 .modalwindow1ModalContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.section3 .modalwindows .modalwindow1 .modalwindow1ModalContent__span {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section3 .modalwindows .modalwindow2 {
+  margin-left: 40px;
+}
+
+.section3 .modalwindows .modalwindow2__btn {
+  padding: 10px 15px;
+  background-color: #006363;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.section3 .modalwindows .modalwindow2 .modalwindow2Modal {
+  display: none;
+  position: fixed;
+  z-index: 30;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section3 .modalwindows .modalwindow2 .modalwindow2ModalContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.section3 .modalwindows .modalwindow2 .modalwindow2ModalContent__span {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section4 {
+  padding-left: 55px;
+  padding-bottom: 55px;
+}
+
+.section4 .wrp .calculator__btn {
+  padding: 10px 15px;
+  background-color: #006363;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.section4 .wrp .calculator .calculatorCalc {
+  display: none;
+}
+
+.section4 .wrp .calculator .calculatorCalc__p {
+  color: green;
+}
+
+.section4 .wrp .calculator .calculatorCalc__p__input {
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.section4 .wrp .calculator .calculatorCalc__p__input__out {
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  min-width: 155px;
+}
+
+.section4 .wrp .calculator .calculatorCalc__btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #35D3A7;
+}
+
+.section4 .wrp .calculator .showcalc {
+  display: block;
+  -webkit-animation: fade;
+  animation: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+.footer {
+  padding-top: 150px;
+  background-color: grey;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header .headerNav .headerNavItemAboutUs,
+  .header .headerNav .headerNavItemPortfolio,
+  .header .headerNav .headerNavItemHome,
+  .header .headerNav .headerNavItemProject,
+  .header .headerNav .headerNavItemFollowUs {
+    width: calc(33.333333333333336% - 30px);
+  }
+
+  .header .headerNav .headerNavItemAboutUs__a:after {
+    float: left;
+  }
+
+  .header .headerNav .headerNavItemPortfolio__a:after {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header .headerNav .headerNavItemAboutUs,
+  .header .headerNav .headerNavItemPortfolio,
+  .header .headerNav .headerNavItemHome,
+  .header .headerNav .headerNavItemProject,
+  .header .headerNav .headerNavItemFollowUs {
+    width: calc(66.66666666666667% - 30px);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header .headerNav .headerNavItemAboutUs,
+  .header .headerNav .headerNavItemPortfolio,
+  .header .headerNav .headerNavItemHome,
+  .header .headerNav .headerNavItemProject,
+  .header .headerNav .headerNavItemFollowUs {
+    width: calc(100% - 30px);
+  }
+}

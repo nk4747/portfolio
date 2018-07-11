@@ -1,0 +1,380 @@
+
+@charset "utf-8";
+body {
+    min-width: 960px;
+    background-color: #444242;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif, Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.header {
+
+background-color: black;
+
+
+}
+
+
+.menu {
+    background-color: black; 
+}
+
+
+.navbar div {
+
+display: inline;
+
+text-decoration: none;
+background-color: black;
+float: left;
+
+
+}
+
+.navbar a {
+
+   
+padding: 20px 20px;
+
+display: inline-block;
+}
+
+.navbar .mgz {
+
+border-bottom: 5px solid white;
+
+}
+
+
+.logo {
+
+padding-left: 20px;
+padding-top: 20px; 
+
+padding-right: 10px;
+}
+
+
+.navbar div:hover {
+
+background-color: #212121;
+
+}
+
+.navbar .logo:hover{
+
+background-color: black;
+
+}
+
+
+.navbar a {
+
+text-decoration: none;
+color: white;
+
+}
+
+
+.nav-entr {
+
+float: right;
+background-color: black;
+
+margin-top:  -15px;
+}
+
+.nav-entr a {
+
+color: white;
+text-decoration: none;
+
+
+}
+
+
+
+.nav-entr .ent {
+
+padding:  12px 5px; 
+
+
+
+list-style: none; 
+background: url("../img/.icon-login.png") no-repeat 0 17px; 
+padding-left: 24px;  
+
+
+
+}
+
+.nav-entr:hover {
+
+background-color: #212121;
+
+
+}
+
+
+.main {
+
+
+background-color: #fcf9f6;
+color: black;
+
+
+}
+
+
+.bread {
+
+padding-top: 40px;
+
+}
+
+
+
+.bread li {
+
+display: inline;
+
+list-style: none; 
+background: url("../img/Shape 1 copy.png") no-repeat 8px 3px; 
+padding-left: 30px;  
+
+
+}
+
+.nabor {
+
+color: #c0bebc;
+
+}
+
+
+.bread a, ul {
+
+    display: inline;
+}
+
+
+.bread a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.bread a:hover {
+
+color: #c0bebc;
+
+
+}
+
+
+.bread ul {
+    margin-left: -40px; 
+
+}
+
+.goods {
+
+padding-bottom:  40px;
+
+}
+
+.goods img {
+
+margin-left: -50px;
+
+}
+
+.othgds span{
+
+padding-right: 40px;
+display: inline;
+
+}
+
+.othgds {
+
+padding-left: 40px;
+
+}
+
+
+
+.artic{
+
+float: right;
+margin: -700px 0;
+
+}
+
+.artic div {
+
+display: inline-block;
+
+}
+
+
+.artic-tov {
+
+color: #c0bebc;
+margin-left: 240px;
+
+}
+
+.opisan {
+
+float: right;
+
+margin: -630px 60px;
+
+}
+
+
+.opisan p {
+padding-bottom: 20px;
+
+}
+
+
+.opisan div {
+
+display: inline-block;
+
+}
+
+.opisan .prise {
+
+padding: 10px 15px;
+
+background-color: #e5e5e5;
+
+}
+
+.opisan button {
+
+background-color: black;
+margin-left: -8px;
+color: white;
+padding: 9px 10px;
+
+}
+
+
+.opnabor {
+
+float: right;
+
+margin: -330px 208px;
+
+}
+
+.opnabor li {
+
+
+list-style: none; 
+background: url("../img/Shape 1 copy.png") no-repeat 1px 6px; 
+padding-left: 20px;  
+}
+
+
+.footer {
+
+background-color: #232323;  
+
+}
+
+.fotcont {
+float: left;
+padding-top: 60px; 
+
+padding-bottom: 50px;
+
+}
+
+.fotcont p {
+
+margin: -10px 0;
+
+
+}
+
+
+.frend span{ 
+
+    display: inline;
+     background-color:  black;
+padding: 15px 10px;
+    
+margin-left: 10px;
+
+
+
+}
+
+.frend p {
+
+ text-align: center;
+padding-bottom: 5px;
+}
+
+.frend  {
+
+float: left;
+
+margin: 35px 100px;
+}
+
+.raz {
+
+float: right;
+
+padding-top: 40px;
+
+}
+
+.raz p {
+
+text-align: center;
+padding-bottom: 5px;
+}
+
+.raz a {
+
+text-decoration: none;
+color: white;
+
+background-color: black;
+
+padding: 10px 30px;
+
+}
+
+.raz a:hover {
+
+background-color: #787373;
+
+}

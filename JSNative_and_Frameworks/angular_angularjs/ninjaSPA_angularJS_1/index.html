@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="myNinjaApp">
+  <head>
+  
+    <title>TheNetNinja Angular Playlist</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/angularjs.js"> </script>
+	<script type="text/javascript" src="js/angular-route.min.js"></script>
+	 <script type="text/javascript" src="js/script.js" ></script>
+	 <script type="text/javascript" src="js/angular-animate.min.js" ></script>
+
+    <meta charset="utf-8"> 
+  </head>
+ <!--  <body>
+	
+	<input type="text" ng-model="favMeat" placeholder="enter you fav meet"/>
+	<p> You fav meet is {{favMeat }} </p>
+	{{ 5 + 5}}
+  </body>
+ -->
+ <!-- <body ng-init="meats=['pork','ham','beef']">
+	
+	<input type="text" ng-model="favMeat" placeholder="enter you fav meet"/>
+	<p>You like {{ meats[1] }}, and you like {{meats[2] }} </p>
+
+  </body>
+ -->
+<!--  <body ng-init="ninjas=['porkвфывфывфы','ham','beef', 'reats', 'alexjs', 'aaaa']">
+	
+	<input type="text" ng-model="favMeat" placeholder="enter you fav meet"/>
+    <ul>
+		<li ng-repeat="ninja in ninjas">{{ninja}}</li>
+
+    </ul>
+
+
+  </body> -->
+
+  <!-- <body ng-init="ninjas=['porkвфывфывфы','ham','beef', 'reats', 'alexjs', 'aaaa']">
+	
+	<input type="text" ng-model="favMeat" placeholder="enter you fav meet"/>
+    <ul>
+		<li ng-repeat="ninja in ninjas">{{ninja}}</li>
+
+    </ul>
+
+
+  </body> -->
+	
+  <body>
+	<ng-include src="'./components/header.html'" ></ng-include>
+	<main ng-view> </main>
+
+  </body>
+</html>

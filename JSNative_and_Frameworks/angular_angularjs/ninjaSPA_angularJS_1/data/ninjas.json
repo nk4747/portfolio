@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Yousi",
+		"belt": "green",
+		"rate": 50,
+		"available": true,
+		"thumb": "img/1.png"
+	}, 
+	
+	{
+		"name": "Alex",
+		"belt": "brown",
+		"rate": 138,
+		"available": true,
+		"thumb": "img/2.png"
+
+	}, 
+	{
+		"name": "Mario",
+		"belt": "white",
+		"rate": 310,
+		"available": false,
+		"thumb": "img/3.png"
+	}, 
+
+	{
+		"name": "Teddy",
+		"belt": "red",
+		"rate": 60,
+		"available": true,
+		"thumb": "img/4.png"
+	}
+
+]

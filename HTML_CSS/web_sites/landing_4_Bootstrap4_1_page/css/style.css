@@ -1,0 +1,516 @@
+@import url(http://allfont.ru/allfont.css?fonts=bebas);
+
+@import url(http://allfont.ru/allfont.css?fonts=bree-serif);
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+.navm {
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 15px;
+}
+
+.navm .logo {
+  padding: 6px 10px;
+}
+
+.navm div {
+  padding: 10px 20px;
+}
+
+.navm div a {
+  color: black;
+  text-decoration: none;
+}
+
+.navm div .blog {
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: #f98561;
+  border-radius: 5px;
+}
+
+.slid {
+  background-image: url("../img/_Path_.png");
+  background-repeat: repeat-x;
+}
+
+.slid .slider {
+  font-family: 'Bebas', arial;
+  padding-top: 130px;
+  padding-bottom: 25px;
+}
+
+.slid .slider .gode {
+  text-transform: uppercase;
+  color: #cccece;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.slid .slider .lor {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #cccece;
+  padding-bottom: 20px;
+}
+
+.slid .slider .ler {
+  padding: 10px 10px;
+  background-color: #f98561;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.slid .slider .ler a {
+  text-decoration: none;
+  color: #ffebca;
+}
+
+.slid .slider .radio {
+  float: right;
+  margin-right: 185px;
+}
+
+.slid .slider .radio div {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slid .slider .radio div span {
+  background: url("../img/Shape 46 copy 4.png");
+  background-repeat: no-repeat;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.slid .slider .radio div span:hover {
+  background: url("../img/_Group_.png");
+  background-repeat: no-repeat;
+}
+
+.slid .slider .ours {
+  color: white;
+  position: absolute;
+  padding-left: 540px;
+}
+
+.slid .slider .ours p {
+  background-color: #2190c1;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.serv {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: 0 -15px;
+  font-family: 'Bree Serif', arial;
+}
+
+.serv div {
+  margin: 0 -20px;
+}
+
+.serv div img {
+  padding-bottom: 30px;
+}
+
+.serv div .servsec {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.serv div .detal {
+  text-decoration: none;
+}
+
+.portour {
+  background-color: #2e3e4f;
+  font-family: 'Bree Serif', arial;
+  padding-bottom: 50px;
+}
+
+.portour .ourp {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin: 0 -15px;
+}
+
+.portour .ourp div {
+  margin: 0 8px;
+}
+
+.portour .ourp div .port {
+  color: #f98561;
+  font-size: 28px;
+}
+
+.portour .ourp div .mwork {
+  color: white;
+  padding: 10px 10px;
+  background-color: #2190c1;
+  width: 90px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portour .imsp {
+  margin: 0 -32px;
+  padding-left: 42px;
+}
+
+.portour .imsp div {
+  margin: 0 -17px;
+}
+
+.portour .imsp div .imcap {
+  color: #f98561;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.portour .imsp div .imtext {
+  color: white;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.whatwe {
+  background-color: white;
+}
+
+.whatwe .hatw {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  max-width: 1050px;
+}
+
+.whatwe .hatw .wht {
+  text-transform: uppercase;
+  color: #2190c1;
+  font-family: 'Bebas', arial;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.whatwe .hatw .whtp {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+
+.whatwe .webtt {
+  max-width: 1075px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.whatwe .webtt div .capti {
+  font-weight: bold;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  color: #2b99cc;
+}
+
+.whatwe .webtt div .wbtxt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.whatwe .webtt div .wbah {
+  padding: 5px 5px;
+  color: white;
+  float: right;
+  background-color: #2190c1;
+  border-radius: 5px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tesmo {
+  background-color: white;
+}
+
+.tesmo .nials {
+  max-width: 1060px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tesmo .nials .als {
+  text-align: center;
+  color: #2190c1;
+  text-transform: uppercase;
+  font-family: 'Bebas', arial;
+  margin-bottom: 15px;
+}
+
+.tesmo .nials .testlor {
+  text-align: center;
+  color: #515862;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+.tesmo .ceo {
+  max-width: 1060px;
+}
+
+.tesmo .ceo .ceom {
+  text-align: center;
+  font-size: 18px;
+  color: #f98561;
+}
+
+.tesmo .ceo .wrkser {
+  padding-top: 20px;
+  padding-left: 405px;
+}
+
+.tesmo .ceo span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.tesmo .ceo span img {
+  display: table;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: -16px;
+  background-color: #2e3e4f;
+  padding-bottom: 40px;
+}
+
+.footer .fot {
+  padding-top: 50px;
+  max-width: 1060px;
+  margin: 0 -30px;
+}
+
+.footer .fot .ttwiitt {
+  margin-right: 30px;
+}
+
+.footer .fot .ttwiitt .twtfee {
+  font-family: 'Bebas', arial;
+  color: #f98561;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer .fot .ttwiitt .chkout {
+  border-bottom: 2px solid #86939a;
+}
+
+.footer .fot .ttwiitt .chkout .chek {
+  color: #86939a;
+  font-size: 13px;
+  margin-bottom: -0.5px;
+  margin-top: 5px;
+}
+
+.footer .fot .ttwiitt .chkout .httk {
+  color: #2190c1;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer .fot .ttwiitt .chkout .wee {
+  color: #86939a;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.footer .fot .newss {
+  margin-right: 30px;
+}
+
+.footer .fot .newss .newi {
+  font-family: 'Bebas', arial;
+  color: #f98561;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer .fot .newss .newlor {
+  border-bottom: 2px solid #86939a;
+}
+
+.footer .fot .newss .newlor .pnewl {
+  color: #86939a;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.footer .fot .newss .newsinp {
+  padding-top: 10px;
+}
+
+.footer .fot .newss .newsinp .emadd {
+  color: #2190c1;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.footer .fot .newss .newsinp .inpem {
+  border-radius: 5px;
+  border: white;
+  width: 236px;
+}
+
+.footer .fot .newss .newsinp .singi {
+  margin-top: 15px;
+  background-color: #2190c1;
+  color: white;
+  float: right;
+  border-radius: 5px;
+  border: #2190c1;
+  font-size: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.footer .fot .resent {
+  margin-right: 25px;
+}
+
+.footer .fot .resent .res {
+  font-family: 'Bebas', arial;
+  color: #f98561;
+  font-size: 30px;
+  margin-bottom: 13px;
+}
+
+.footer .fot .resent .resprd {
+  border-bottom: 2px solid #86939a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.footer .fot .resent .resprd .imgret {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.footer .fot .resent .resprd .descres .resnm {
+  color: #86939a;
+  font-size: 13px;
+  margin-bottom: -2px;
+}
+
+.footer .fot .resent .resprd .descres .abix {
+  color: #2190c1;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer .fot .resent .resprd .descres .werty {
+  color: #86939a;
+  font-size: 13px;
+}
+
+.footer .fot .contactf .contf {
+  font-family: 'Bebas', arial;
+  color: #f98561;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.footer .fot .contactf .phnf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer .fot .contactf .phnf .phnnn {
+  padding-right: 10px;
+}
+
+.footer .fot .contactf .phnf .numbers {
+  color: #86939a;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1100px) {
+  .slid .slider .ours {
+    display: none;
+  }
+
+  .tesmo .ceo .ceom {
+    display: none;
+  }
+
+  .tesmo .ceo .wrkser {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .slid .slider .ler {
+    margin-bottom: 18px;
+  }
+
+  .slid .slider .ler {
+    margin-top: -30px;
+  }
+
+  .slid .slider .radio {
+    margin-right: 10px;
+  }
+
+  .portour .imsp {
+    padding-left: 10px;
+  }
+
+  .whatwe .hatw .wht {
+    width: 200px;
+  }
+
+  .whatwe .hatw .whtp {
+    width: 200px;
+  }
+}

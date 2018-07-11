@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="StyleSheet" href="css/style.css" type="text/css">
+	 <meta name="viewport" content="widht=device-width, , initial-scale=1">	 
+	<meta charset="UTF-8">
+	<title>INDEX</title>
+</head>
+<body>
+<div class="container">
+	<div class="wrap">
+		<h1 class="wrap__h1"> Форма обратной связи</h1>
+		<form class="form" id="feedback" name="feedback" method="POST" >
+			
+					<div class="formInputName">
+					<label class="formInputName__label">Ваше имя: </label> 					
+					<input class="formInputName__input"  type="text" name="username" maxlength="30" placeholder="Введите ваше имя">
+					</div>
+
+
+					<div class="formInputSurname">
+					<label class="formInputSurname__label">Ваша фамилия:</label>
+					<input class="formInputSurname__input" type="text" name="usersurname" maxlength="30" placeholder="Введите вашу фамилию">
+					</div>
+				
+
+					<div class="formInputUsermail">
+					<label class="formInputUsermail__label">Электронная почта:</label>
+					<input class="formInputUsermail__input" type="text" id="email" name="usermail" maxlength="50" placeholder="Введите ваш Email-адресс">
+					</div>
+
+
+					<div class="formInputPassword">
+					<label class="formInputPassword__label">Ваш пароль:</label>
+					<input class="formInputPassword__input" type="password" id="userpassword" name="userpassword" maxlength="30" placeholder="Введите ваш пароль">
+					</div>
+
+					<div class="formInputPasswordrepeat">
+					<label class="formInputPasswordrepeat__label">Повторите пароль:</label>
+					<input class="formInputPasswordrepeat__input"  type="password" id="userpasswordpereat" name="userpasswordpereat" maxlength="30" placeholder="Повторите ваш пароль">
+					</div>
+
+				
+					<div class="formInputSubject">
+					<label class="formInputSubject__label">Тема сообщения:</label>
+					<input class="formInputSubject__input" type="text" name="subject" maxlength="50" placeholder="Введите тему сообщения">
+					</div>
+
+					
+
+					<div class="formInputTextarea">
+					<label class="formInputTextarea__label">Текст сообщения:</label>
+					<textarea class="formInputTextarea__textarea" name="textmess" placeholder="Введите текст сообщения"></textarea>
+					</div>
+
+					
+					<div class="formInputButton">
+					<button class="formInputButton__btn" id="send_mess" type="submit">отправить сообщение</button>
+					</div>
+				
+			
+		</form>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

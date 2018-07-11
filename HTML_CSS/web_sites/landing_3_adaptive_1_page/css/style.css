@@ -1,0 +1,461 @@
+@font-face {
+  font-family: 'eausans_book';
+  src: url('../fronts/eau_sans_book.ttf') format('truetype');
+  src: url('../fronts/eau_sans_book-webfont.woff2') format('woff2'), url('../fronts/eau_sans_book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: eausans_book;
+}
+
+.header {
+  background-image: url("../img/bg elements.png");
+}
+
+.header .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .head .logo {
+  margin-top: 70px;
+  text-align: right;
+}
+
+.header .head .logo h3 {
+  color: #2b7e87;
+  font-size: 27px;
+}
+
+.header .head .logo p {
+  color: white;
+  font-size: 20px;
+}
+
+.header .head .logo form {
+  float: right;
+}
+
+.header .head .logo form div {
+  float: left;
+}
+
+.header .head .logo form .inpe {
+  margin-right: 10px;
+}
+
+.header .head .logo form .inpe input {
+  min-width: 175px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #bac0c1;
+}
+
+.header .head .logo form .subtn {
+  margin-top: 1px;
+}
+
+.header .head .logo form .subtn button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffe0a6), to(#f9cf81));
+  background: linear-gradient(to bottom, #ffe0a6, #f9cf81);
+  padding: 14px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #484848;
+}
+
+.header .head .seev span {
+  background-image: url("../img/Shape.png");
+  padding: 60px 140px;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 330px;
+  height: 200px;
+  margin: 100px -160px;
+}
+
+.header .head .seev span img {
+  padding-left: 100px;
+}
+
+.header .head .seev span p {
+  margin-left: -110px;
+  text-align: center;
+}
+
+.header .head .seev span .viv {
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.head .bred {
+  padding-top: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: absolute;
+  padding-left: 670px;
+}
+
+.head .bred div {
+  display: inline;
+  padding-right: 10px;
+}
+
+.head .bred div .mobapp a {
+  text-decoration: none;
+  color: black;
+}
+
+.head .bred div .mobapp a img,
+.head .bred div .mobapp a p {
+  display: inline;
+}
+
+.head .bred div .mobapp a p {
+  float: left;
+  margin-top: 0.5px;
+  padding: 13px 15px;
+  border-left-radius: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9aeafe), to(#56cad6));
+  background: linear-gradient(to bottom, #9aeafe, #56cad6);
+}
+
+.head .bred div .mobapp a img {
+  float: left;
+}
+
+.head .bred div .fafa {
+  float: left;
+  background-color: #5472b1;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 0.5px;
+}
+
+.head .bred div .twt {
+  background-color: #5472b1;
+  float: left;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+
+.head .clou {
+  background: url("../img/clouds.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  padding: 80px 100px;
+  width: 200%;
+  margin-top: 460px;
+  margin-left: -1650px;
+  padding-left: 500px;
+}
+
+main {
+  background-color: white;
+}
+
+main .cont {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+main .cont div {
+  margin: 0 30px;
+  text-align: center;
+}
+
+main .cont div p {
+  margin-top: -5px;
+  color: #465568;
+}
+
+main .cont div h3 {
+  color: #465568;
+  font-size: 28px;
+}
+
+main .content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+main .content2 .col1 {
+  text-align: right;
+  color: #465568;
+  padding-top: 50px;
+}
+
+main .content2 .col1 div {
+  padding-bottom: 5px;
+}
+
+main .content2 .col1 div h1 {
+  font-size: 28px;
+}
+
+main .content2 .col1 div p {
+  margin-top: -5px;
+}
+
+main .content2 .col2 img {
+  margin-top: -45px;
+}
+
+main .content2 .col3 {
+  text-align: left;
+  color: #465568;
+  padding-top: 10px;
+}
+
+main .content2 .col3 div {
+  padding-bottom: 5px;
+}
+
+main .content2 .col3 div h1 {
+  font-size: 28px;
+}
+
+main .content2 .col3 div p {
+  margin-top: -5px;
+}
+
+footer {
+  background-image: url("../img/bg elements.png");
+}
+
+footer .ft {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .ft .ftr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -60px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer .ft .ftr .mal,
+footer .ft .ftr .gtfom,
+footer .ft .ftr .appg {
+  margin: 0 60px;
+}
+
+footer .ft .ftr .mal h1 {
+  font-size: 24px;
+  color: white;
+}
+
+footer .ft .ftr .mal h1 img {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+footer .ft .ftr .mal p {
+  color: white;
+  line-height: 8px;
+}
+
+footer .ft .ftr .mal p strong {
+  color: black;
+  font-size: 19px;
+}
+
+footer .ft .ftr .gtfom {
+  padding-top: 50px;
+}
+
+footer .ft .ftr .gtfom form div {
+  display: inline;
+}
+
+footer .ft .ftr .gtfom form .inpe {
+  margin-right: 10px;
+}
+
+footer .ft .ftr .gtfom form .inpe input {
+  min-width: 175px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #bac0c1;
+}
+
+footer .ft .ftr .gtfom form .subtn {
+  margin-top: 1px;
+}
+
+footer .ft .ftr .gtfom form .subtn button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffe0a6), to(#f9cf81));
+  background: linear-gradient(to bottom, #ffe0a6, #f9cf81);
+  padding-top: 12px;
+  padding-bottom: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #484848;
+}
+
+footer .ft .ftr .appg {
+  padding-top: 50px;
+}
+
+footer .ft .ftr .appg div {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+footer .ft .ftr .appg div .fsf {
+  background-color: #5472b1;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin-top: 0.5px;
+}
+
+footer .ft .ftr .appg div .twtf {
+  background-color: #5472b1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  .header .head .seev {
+    display: none;
+  }
+
+  .head .bred {
+    margin-top: 115px;
+  }
+
+  .head .bred {
+    margin-left: -640px;
+  }
+
+  .head .clou {
+    display: none;
+  }
+
+  main .content2 .col1 {
+    margin: 0 30px;
+  }
+
+  main .content2 .col1 {
+    text-align: left;
+  }
+
+  main .content2 .col2 img {
+    display: none;
+  }
+
+  main .content2 .col3 {
+    margin: 0 30px;
+  }
+
+  main .content2 .col3 {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header .head .logo {
+    text-align: left;
+  }
+
+  .header .head .logo .lgo img {
+    margin-left: -40px;
+  }
+
+  .header .head .iphone {
+    display: none;
+  }
+
+  .head .bred div {
+    padding-right: 5px;
+  }
+
+  main .cont {
+    padding-top: 110px;
+  }
+
+  main .cont div {
+    width: calc(41.66666666666667% - 30px);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header .head .logo h3 {
+    font-size: 22px;
+  }
+
+  .header .head .logo p {
+    font-size: 15px;
+  }
+
+  .head .bred {
+    margin-left: -680px;
+  }
+
+  .head .bred {
+    margin-top: 110px;
+  }
+
+  main .cont div {
+    width: calc(83.33333333333334% - 30px);
+  }
+
+  footer .ft .ftr .mal p {
+    line-height: 10px;
+  }
+
+  footer .ft .ftr .mal p strong {
+    font-size: 16px;
+  }
+}

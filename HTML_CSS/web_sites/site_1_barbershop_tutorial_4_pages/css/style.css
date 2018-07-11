@@ -1,0 +1,659 @@
+
+@charset "utf-8";
+body {
+    min-width: 960px;
+    background-color: black;
+    background-image: url("../img/index-backgound.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif, Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    background-color: black; 
+}
+
+
+.navbar div {
+
+display: inline;
+
+text-decoration: none;
+background-color: black;
+float: left;
+
+
+}
+
+.navbar a {
+
+   
+padding: 20px 20px;
+
+display: inline-block;
+}
+
+.navbar div:first-child {
+
+border-bottom: 5px solid white;
+
+
+
+}
+
+.navbar div:hover {
+
+background-color: #212121;
+
+
+}
+
+
+.navbar a {
+
+text-decoration: none;
+color: white;
+
+}
+
+
+.nav-entr {
+
+float: right;
+background-color: black;
+
+}
+
+.nav-entr a {
+
+color: white;
+text-decoration: none;
+
+}
+
+.nav-entr .ent {
+
+ padding: 5px 15px;
+list-style: none; 
+background: url("../img/.icon-login.png") no-repeat 0 10px; 
+padding-left: 24px;  
+
+
+
+}
+
+.nav-entr:hover {
+
+background-color: #212121;
+
+}
+
+.logo figure{
+
+padding-top: 30px; 
+padding-left: 250px; 
+
+}
+
+.ofert {
+
+padding-left: 20px;
+
+padding-bottom: 60px;
+
+}
+
+.ofert span{
+
+display: inline-block;
+
+padding: 0 22px;
+
+}
+
+
+.quic {
+
+display: table;
+
+}
+
+.quic img {
+
+padding-left: 110px; 
+
+}
+
+.quic h1 {
+
+text-align: center;
+} 
+
+.quic p {
+
+text-align: center;
+margin-bottom: -9px;
+
+}
+
+.cool {
+
+display: table;
+
+}
+
+.cool img {
+
+padding-left: 120px; 
+
+}
+
+.cool h1 {
+
+text-align: center;
+} 
+
+.cool p {
+
+text-align: center;
+margin-bottom: -9px;
+
+}
+
+.expen{
+
+display: table;
+
+}
+
+.expen img {
+
+padding-left: 130px; 
+
+}
+
+.expen h1 {
+
+text-align: center;
+} 
+
+.expen p {
+
+text-align: center;
+margin-bottom: -9px;
+
+}
+
+.info {
+
+background-color: white; 
+
+
+}
+
+.info .news ul {
+
+text-decoration: none;
+
+color: black;
+
+} 
+
+
+.info .news li {
+
+display: table;
+
+} 
+
+
+.newsbtn  {
+
+text-decoration: none;
+
+background-color: black; 
+
+color: white;
+
+padding: 12px 37px; 
+
+}
+
+.newsbtn:hover {
+
+background-color: #787373;
+
+}
+
+.news {
+float: left;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 40px;
+padding-left: 40px;
+}
+
+
+
+.news li {
+
+padding-bottom: 40px;
+
+
+}
+
+
+.news p {
+
+margin: 4px 0;
+
+
+}
+
+.news .newnew {
+
+padding-bottom: 20px;
+
+}
+
+.coll {
+
+float: right;
+
+margin: -400px 440px;
+}
+
+.photo {
+
+float: right;
+
+margin-top: -480px;
+
+}
+
+.photo h1 {
+
+color: black;
+
+padding-bottom: 30px;
+
+padding-left: 30px;
+}
+
+.photo img {
+
+margin-right: 30px; 
+margin-bottom: 80px; 
+
+}
+
+
+.vp {
+
+color: white;
+
+background-color: black;
+
+padding: 10px 45px;
+
+}
+
+.vp:hover {
+
+background-color: #787373;
+
+}
+
+
+.nz {
+
+color: white;
+
+background-color: black;
+padding: 10px 45px;
+
+}
+
+
+.nz:hover {
+
+background-color: #787373;
+
+}
+
+
+
+
+.nbtns {
+
+padding-left: 20px;
+
+
+}
+
+
+.nbtns div {
+
+display: inline;
+
+margin: 0px 20px;
+
+
+}
+
+
+.infocontact{
+
+padding-top: 35px;
+padding-left: 40px;
+
+float: left;
+}
+
+
+.contact {
+
+background-color: white; 
+
+margin-top: 30px;
+
+padding-bottom: 35px;
+
+
+}
+
+.contact .infocontact ul {
+
+text-decoration: none;
+
+
+
+}
+
+
+.contact .infocontact li {
+
+padding-bottom: 25px;
+
+}
+
+
+.infocontact h1 {
+
+color: black;
+ 
+
+}
+
+.infocontact p {
+
+color: black;
+
+
+}
+
+
+.btn2 div {
+
+display: inline;
+
+padding-right: 20px;
+}
+
+.obr {
+
+padding: 10px 25px;
+
+color: white;
+
+background-color: black;
+
+}
+
+.obr:hover {
+
+background-color: #787373;
+
+}
+
+
+.kak {
+
+
+padding: 10px 30px;
+
+color: white;
+
+background-color: black;
+
+}
+
+.kak:hover {
+
+background-color: #787373;
+
+}
+
+.col2 {
+ 
+ float: left;
+
+margin: -400px 440px;
+
+
+}
+
+
+
+.anket {
+
+float: right;
+
+margin: -475px 75px;
+
+}
+
+.anket li {
+
+padding-bottom: 25px; 
+
+}
+
+
+.anket h1 {
+
+
+color: black;
+
+}
+
+
+.anket p {
+
+color: black;
+
+
+}
+
+
+.an-1 div {
+
+display: inline;
+
+padding-left: 20px;
+
+
+}
+
+.an-1  {
+
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+.an-2 {
+
+ margin-left:   10px;
+}   
+
+
+
+.an-2 div {
+
+display: inline;
+
+padding-left: 20px;
+
+
+}
+
+.an-1 input {
+
+color: black;
+
+
+padding: 10px 4px;
+
+font-size: 13px; 
+
+
+border: 3px solid black;
+
+}
+
+.an-2 input {
+
+color: black;
+
+padding: 10px 4px ;
+
+font-size: 13px; 
+
+border: 3px solid black;
+
+}
+
+.btnank {
+
+padding-top: 65px;
+ float: right;
+
+}
+
+.btnank button:hover {
+
+background-color: #787373;
+
+}
+
+
+.btnank button{
+
+color: white;
+
+background-color: black;    
+
+padding: 10px 120px;
+
+}
+
+.main {
+
+padding-bottom:  60px; 
+
+}
+.footer {
+
+background-color: #232323;  
+
+}
+
+.fotcont {
+float: left;
+padding-top: 60px; 
+
+padding-bottom: 50px;
+
+}
+
+.fotcont p {
+
+margin: -10px 0;
+
+
+}
+
+
+.frend span{ 
+
+    display: inline;
+     background-color:  black;
+padding: 15px 10px;
+    
+margin-left: 10px;
+
+
+
+}
+
+.frend p {
+
+ text-align: center;
+padding-bottom: 5px;
+}
+
+.frend  {
+
+float: left;
+
+margin: 35px 100px;
+}
+
+.raz {
+
+float: right;
+
+padding-top: 40px;
+
+}
+
+.raz p {
+
+text-align: center;
+padding-bottom: 5px;
+}
+
+.raz a {
+
+text-decoration: none;
+color: white;
+
+background-color: black;
+
+padding: 10px 30px;
+
+}
+
+.raz a:hover {
+
+background-color: #787373;
+
+}

@@ -1,0 +1,514 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #54add8;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+header .wrapper .nav,
+header .wrapper .singin {
+  display: inline;
+}
+
+header .wrapper .nav div {
+  display: inline-block;
+  padding: 8px 8px;
+}
+
+header .wrapper .nav div a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+header .wrapper .nav div a img {
+  float: right;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+header .wrapper .nav div:active {
+  background-color: #f75c00;
+}
+
+header .wrapper .submenu {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 270px;
+}
+
+header .wrapper .submenu ul li {
+  list-style: none;
+  font-family: Tahoma;
+  background-color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+header .wrapper .submenu ul li:hover {
+  background-color: #bfd8eb;
+}
+
+header .wrapper .submenu ul li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+header .wrapper .singin {
+  font-family: Tahoma;
+  margin-top: 8px;
+  margin-left: 28px;
+}
+
+header .wrapper .singin a {
+  font-size: 14px;
+  color: #a8d5eb;
+  text-decoration: none;
+}
+
+header .wrapper .singin a:active {
+  text-decoration: underline;
+}
+
+header .wrapper .singin a:before {
+  content: "" url("../img/Shape 2.png");
+  padding-right: 4px;
+}
+
+header .wrapper .singin a:hover {
+  color: #ffffff;
+}
+
+header .wrapper .singin a:hover::before {
+  content: "" url("../img/Shape 3.png");
+}
+
+main {
+  background-color: #0085c5;
+  margin-top: -24px;
+}
+
+main .wrapper {
+  font-family: Tahoma;
+}
+
+main .wrapper h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  padding-top: 45px;
+}
+
+main .wrapper form .formcol1 {
+  padding-left: 5px;
+}
+
+main .wrapper form .formcol1 div {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+main .wrapper form .formcol1 div .cityname {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: white;
+}
+
+main .wrapper form .formcol1 div .inputcity {
+  color: #a9a9a9;
+  padding-top: 5px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-left: -2px;
+  font-size: 14px;
+  width: 364px;
+  border: #d7d7d7;
+}
+
+main .wrapper form .formcol1 div .arrow {
+  background: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  padding: 10px 15px;
+  margin-top: -50px;
+  float: left;
+}
+
+main .wrapper form .formcol1 div .arrow:hover {
+  background: url("../img/arrow2.png");
+  background-repeat: no-repeat;
+}
+
+main .wrapper form .formcol1 div .dest {
+  margin-top: 2px;
+  color: #94c4db;
+  font-size: 13px;
+}
+
+main .wrapper form .formcol1 div .dest .dash {
+  font-style: normal;
+  cursor: pointer;
+  border-bottom: 1px dashed #94c4db;
+}
+
+main .wrapper form .formcol1 div .dest .dash:hover {
+  color: white;
+  border-bottom: 1px dashed white;
+}
+
+main .wrapper form .formcol2 {
+  padding-bottom: 50px;
+  font-family: Tahoma;
+  padding-left: 5px;
+}
+
+main .wrapper form .formcol2 div {
+  display: inline-block;
+}
+
+main .wrapper form .formcol2 div .depda {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: white;
+}
+
+main .wrapper form .formcol2 div .inpdate {
+  width: 143px;
+  padding: 15px 10px;
+  background-image: url("../img/calendarcopy.png");
+  background-position: 125px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  color: #a9a9a9;
+  font-size: 14px;
+  font-family: Tahoma;
+  border: #d7d7d7;
+}
+
+main .wrapper form .formcol2 div .inpdate::-ms-clear {
+  display: none;
+}
+
+main .wrapper form .formcol2 div .checkbox {
+  background-image: url("../img/Rectspan.png");
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 14px;
+  color: white;
+  margin-left: 40px;
+}
+
+main .wrapper form .formcol2 div .checkbox li {
+  list-style: none;
+  cursor: pointer;
+  margin-left: -20px;
+  margin-top: -4px;
+}
+
+main .wrapper form .formcol2 div .checkbox li:before {
+  content: "" url("../img/ckekbox.png");
+  background-repeat: no-repeat;
+}
+
+main .wrapper form .formcol2 div .checkbox li:active::before {
+  content: "" url("../img/chekboxchek.png");
+  background-repeat: no-repeat;
+}
+
+main .wrapper form .formcol2 div .retrdate {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: white;
+  margin-left: -15px;
+  display: none;
+}
+
+main .wrapper form .formcol2 div .retdateinp {
+  display: none;
+  width: 143px;
+  padding: 15px 10px;
+  background-image: url("../img/calendar2.png");
+  background-color: #1395d3;
+  border: #0076ad;
+  background-position: 125px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  color: #94c4db;
+  font-size: 14px;
+  font-family: Tahoma;
+  margin-left: -15px;
+}
+
+main .wrapper form .formcol2 div .retdateinp::-ms-clear {
+  display: none;
+}
+
+main .wrapper form .formcol2 div .cur {
+  font-size: 13px;
+  margin-left: 43px;
+  color: white;
+  margin-top: -50px;
+  float: left;
+}
+
+main .wrapper form .formcol2 div .currency {
+  position: absolute;
+  margin-top: -21px;
+  margin-left: 43px;
+}
+
+main .wrapper form .formcol2 div .currency .active {
+  width: 60px;
+  padding: 14px 12px;
+  display: block;
+  font-size: 16px;
+  font-family: Tahoma;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../img/active.png");
+  background-repeat: no-repeat;
+  background-position: 60px;
+  background-color: white;
+  list-style: none;
+  margin-left: -40px;
+  margin-top: -10px;
+}
+
+main .wrapper form .formcol2 div .currency li:first-child {
+  border: #d7d7d7;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main .wrapper form .formcol2 div .currency li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+main .wrapper form .formcol2 div .currency .noneelem {
+  display: none;
+  background-image: none;
+  width: 60px;
+  padding: 14px 12px;
+  font-size: 16px;
+  font-family: Tahoma;
+  background-color: white;
+  list-style: none;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+main .wrapper form .formcol2 div .currency .noneelem:hover {
+  background-color: #bfd8eb;
+}
+
+main .wrapper form .formcol2 div .sertchbtn {
+  margin-left: 65px;
+  padding: 15px 20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f76205), to(#fbaf4a));
+  background: linear-gradient(to top, #f76205, #fbaf4a);
+  border-radius: 5px;
+  cursor: pointer;
+  border: #de5300;
+  outline: 0 !important;
+  width: 180px;
+  margin-top: 2px;
+}
+
+main .wrapper form .formcol2 div .sertchbtn a {
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+  font-size: 16px;
+  background-image: url("../img/searck.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  header .wrapper .nav div {
+    width: calc(25% - 30px);
+  }
+
+  header .wrapper .nav div a img {
+    float: left;
+  }
+
+  header .wrapper .nav div a img {
+    padding-right: 5px;
+  }
+
+  header .wrapper .submenu {
+    width: calc(25% - 30px);
+  }
+
+  header .wrapper .submenu {
+    margin-top: 60px;
+  }
+
+  header .wrapper .submenu {
+    margin-right: 500px;
+  }
+
+  header .wrapper .singin {
+    width: calc(25% - 30px);
+  }
+
+  header .wrapper .singin {
+    margin-left: 5px;
+  }
+
+  header .wrapper .singin {
+    font-weight: bold;
+  }
+
+  header .wrapper .singin {
+    padding-bottom: 5px;
+  }
+
+  main .wrapper form .formcol2 div .cur {
+    margin-left: 21px;
+  }
+
+  main .wrapper form .formcol2 div .currency {
+    margin-left: 21px;
+  }
+
+  main .wrapper form .formcol2 div .sertchbtn {
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header .wrapper .nav div {
+    width: calc(50% - 30px);
+  }
+
+  header .wrapper .submenu {
+    width: calc(50% - 30px);
+  }
+
+  header .wrapper .submenu {
+    margin-top: 100px;
+  }
+
+  header .wrapper .submenu {
+    text-align: center;
+  }
+
+  header .wrapper .submenu {
+    max-width: 400px;
+  }
+
+  header .wrapper .submenu {
+    margin-right: 20px;
+  }
+
+  header .wrapper .singin {
+    width: calc(50% - 30px);
+  }
+
+  main .wrapper form .formcol1 div .arrow {
+    display: none;
+  }
+
+  main .wrapper form .formcol1 div .arrow:hover {
+    display: none;
+  }
+
+  main .wrapper form .formcol2 div .retdateinp {
+    margin-left: -10px;
+  }
+
+  main .wrapper form .formcol2 div .cur {
+    margin-left: 10px;
+  }
+
+  main .wrapper form .formcol2 div .currency {
+    margin-left: 10px;
+  }
+
+  main .wrapper form .formcol2 div .sertchbtn {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  header .wrapper .nav div {
+    width: calc(100% - 30px);
+  }
+
+  header .wrapper .submenu {
+    width: calc(100% - 30px);
+  }
+
+  header .wrapper .submenu {
+    margin-top: 210px;
+  }
+
+  header .wrapper .submenu {
+    margin-right: 545px;
+  }
+
+  header .wrapper .submenu {
+    text-align: right;
+  }
+
+  header .wrapper .singin {
+    width: calc(100% - 30px);
+  }
+
+  main .wrapper form .formcol1 div .inputcity {
+    width: 240px;
+  }
+
+  main .wrapper form .formcol2 div .checkbox {
+    margin-top: 30px;
+  }
+
+  main .wrapper form .formcol2 div .retrdate {
+    margin-left: 10px;
+  }
+
+  main .wrapper form .formcol2 div .retdateinp {
+    margin-left: 10px;
+  }
+
+  main .wrapper form .formcol2 div .cur {
+    margin-left: 10px;
+  }
+
+  main .wrapper form .formcol2 div .currency {
+    margin-left: 10px;
+  }
+
+  main .wrapper form .formcol2 div .sertchbtn {
+    margin-left: 35px;
+  }
+}

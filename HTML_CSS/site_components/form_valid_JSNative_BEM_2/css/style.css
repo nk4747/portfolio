@@ -1,0 +1,204 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.wrap {
+  font: normal 16px Roboto, Verdana, sans-serif;
+  resize: none;
+  background-color: #2cc983;
+  border-radius: 15px;
+  border: 1px solid black;
+  color: #525755;
+}
+
+.wrap__h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrap .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.wrap .form .formInputName {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputName__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputName__input {
+  font-size: 14px;
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+}
+
+.wrap .form .formInputSurname {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputSurname__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputSurname__input {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+}
+
+.wrap .form .formInputUsermail {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputUsermail__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputUsermail__input {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+}
+
+.wrap .form .formInputPassword {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputPassword__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputPassword__input {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+}
+
+.wrap .form .formInputPasswordrepeat {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputPasswordrepeat__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputPasswordrepeat__input {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+}
+
+.wrap .form .formInputSubject {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputSubject__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputSubject__input {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+}
+
+.wrap .form .formInputTextarea {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputTextarea__label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrap .form .formInputTextarea__textarea {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: black;
+  max-width: 240px;
+}
+
+.wrap .form .formInputButton {
+  padding-bottom: 20px;
+}
+
+.wrap .form .formInputButton__btn {
+  padding: 15px 15px;
+  border-radius: 5px;
+  border: black;
+  text-transform: uppercase;
+}
+
+.wrap .form .formInputButton__btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.error {
+  background-color: #FF7373;
+  color: black;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid 1px red;
+  padding: 5px 5px;
+}
